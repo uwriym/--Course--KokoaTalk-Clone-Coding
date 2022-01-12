@@ -1,0 +1,29 @@
+.screen-header {
+  width: 100%;
+  box-sizing: border-box;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: var(--horizontal-space);
+  margin-bottom: 15px;
+}
+
+.screen-header__title {
+  font-size: 32px;
+  font-weight: 600;
+}
+
+.screen-header__icons span {
+  margin-left: 25px;
+  position: relative;
+}
+
+.cog__dot {
+  position: absolute;
+  background-color: tomato;
+  width: 6px;
+  height: 6px;
+  border-radius: 50%;
+  left: 20px;
+  bottom: 20px;
+}

@@ -22,6 +22,100 @@
         <i class="fas fa-bolt"></i>
       </div>
     </div>
+
+    <header class="screen-header">
+      <h1 class="screen-header__title">Friends</h1>
+      <div class="screen-header__icons">
+        <span><i class="fas fa-search fa-lg"></i></span>
+        <span><i class="fas fa-music fa-lg"></i></span>
+        <span
+          ><a href="settings.html"><i class="fas fa-cog fa-lg"></i></a
+        ></span>
+      </div>
+    </header>
+
+    <a id="friends-display-link" href="#"
+      ><i class="fas fa-info-circle"></i> Friend's Names Display
+      <i class="fas fa-chevron-right fa-xs"></i>
+    </a>
+
+    <main class="main-screen friends-screen">
+      <div class="user-component user-component__profile">
+        <div class="user-component__column">
+          <img
+            src="screenshots/dog legs.JPEG"
+            class="user-component__avatar user-component__avatar--xl"
+          />
+          <div class="user-component__text">
+            <h4 class="user-component__title">Nicolas</h4>
+            <!--<h6 class="user-component__subtitle">this text whatever</h6>-->
+          </div>
+        </div>
+        <div class="user-component__column"></div>
+      </div>
+
+      <div class="screen-list__border friends-screen__channel">
+        <div class="screen-list__header friends-screen__channel-header">
+          <span>Channel</span><i class="fas fa-chevron-up"></i>
+        </div>
+        <div class="user-component user-component__channel">
+          <div class="user-component__column">
+            <img
+              src="screenshots/dog legs.JPEG"
+              class="user-component__avatar user-component__avatar--sm"
+            />
+            <div class="user-component__text">
+              <h4 class="user-component__title user-component__title--not-bold">
+                Channel
+              </h4>
+            </div>
+          </div>
+          <div class="user-component__column">
+            <div><span>2</span><i class="fas fa-chevron-right"></i></div>
+          </div>
+        </div>
+      </div>
+
+      <div class="screen-list__border friends-screen__friends">
+        <div class="screen-list__header friends-screen__friends-header">
+          <span>Friends</span><i class="fas fa-chevron-up"></i>
+        </div>
+
+        <div class="user-component user-component__friends">
+          <div class="user-component__column">
+            <img
+              src="screenshots/dog legs.JPEG"
+              class="user-component__avatar user-component__avatar--sm"
+            />
+            <div class="user-component__text">
+              <h4 class="user-component__title user-component__title--not-bold">
+                Urim Lee
+              </h4>
+            </div>
+          </div>
+          <div class="user-component__column">
+            <!-- state message -->
+          </div>
+        </div>
+        <div class="user-component user-component__friends">
+          <div class="user-component__column">
+            <img
+              src="screenshots/dog legs.JPEG"
+              class="user-component__avatar user-component__avatar--sm"
+            />
+            <div class="user-component__text">
+              <h4 class="user-component__title user-component__title--not-bold">
+                Nicolas
+              </h4>
+            </div>
+          </div>
+          <div class="user-component__column">
+            <!-- state message -->
+          </div>
+        </div>
+      </div>
+    </main>
+
     <nav class="nav">
       <ul class="nav__list">
         <li class="nav__btn">
@@ -30,16 +124,18 @@
           ></a>
         </li>
         <li class="nav__btn">
-          <a class="nav__link" href="#">
-            <span class="nav__notification">1</span>
+          <a class="nav__link" href="chats.html">
+            <span class="badge nav__notification">1</span>
             <i class="far fa-comment fa-2x"></i>
           </a>
         </li>
         <li class="nav__btn">
-          <a class="nav__link" href="#"><i class="fas fa-search fa-2x"></i></a>
+          <a class="nav__link" href="find.html"
+            ><i class="fas fa-search fa-2x"></i
+          ></a>
         </li>
         <li class="nav__btn">
-          <a class="nav__link" href="#">
+          <a class="nav__link" href="more.html">
             <div class="nav__dot"></div>
             <i class="fas fa-ellipsis-h fa-2x"></i>
           </a>

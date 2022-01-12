@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=, initial-scale=1.0" />
+    <title>Settings - Kokoa Clone</title>
+    <link rel="stylesheet" href="css/styles.css" />
+  </head>
+  <body>
+    <div class="status-bar">
+      <div class="status-bar__column">
+        <span>No Service</span>
+        <i class="fas fa-wifi"></i>
+      </div>
+      <div class="status-bar__column">
+        <span>18:43</span>
+      </div>
+      <div class="status-bar__column">
+        <span>110%</span>
+        <i class="fas fa-battery-full fa-lg"></i>
+        <i class="fas fa-bolt"></i>
+      </div>
+    </div>
+
+    <header class="setchat-header">
+      <div class="setchat-header__column">
+        <a href="javascript:history.back();"
+          ><i class="fas fa-chevron-left fa-lg"></i
+        ></a>
+      </div>
+      <div class="setchat-header__column">
+        <span>Settings</span>
+      </div>
+      <div class="setchat-header__column">
+        <i class="fas fa-search fa-lg"></i>
+      </div>
+    </header>
+
+    <main class="main-screen setting-screen">
+      <ul class="settings-list">
+        <li class="settings__setting">
+          <div class="settings__setting__column">
+            <div class="settings__setting__icon">
+              <i class="fas fa-bullhorn"></i>
+            </div>
+            <div class="settings__setting__title"><span>Notices</span></div>
+          </div>
+        </li>
+        <li class="settings__setting">
+          <div class="settings__setting__column">
+            <div class="settings__setting__icon">
+              <i class="fas fa-flask"></i>
+            </div>
+            <div class="settings__setting__title"><span>Kokoa Lab</span></div>
+          </div>
+        </li>
+        <li class="settings__setting">
+          <div class="settings__setting__column">
+            <div class="settings__setting__icon">
+              <i class="fas fa-info-circle"></i>
+            </div>
+            <div class="settings__setting__title"><span>Version</span></div>
+          </div>
+          <div class="settings__setting__column">
+            <div class="settings__setting__info">
+              <span>Latest Version</span>
+            </div>
+          </div>
+        </li>
+      </ul>
+    </main>
+
+    <div id="setting-screen__border"></div>
+
+    <main class="main-screen setting-screen">
+      <ul class="settings-list">
+        <li class="settings__setting">
+          <div class="settings__setting__column">
+            <div class="settings__setting__icon">
+              <i class="fas fa-lock"></i>
+            </div>
+            <div class="settings__setting__title"><span>Privacy</span></div>
+          </div>
+        </li>
+        <li class="settings__setting">
+          <div class="settings__setting__column">
+            <div class="settings__setting__icon">
+              <i class="fas fa-bell"></i>
+            </div>
+            <div class="settings__setting__title">
+              <span>Notifications</span>
+            </div>
+          </div>
+        </li>
+        <li class="settings__setting">
+          <div class="settings__setting__column">
+            <div class="settings__setting__icon">
+              <i class="fas fa-user"></i>
+            </div>
+            <div class="settings__setting__title"><span>Friends</span></div>
+          </div>
+        </li>
+        <li class="settings__setting">
+          <div class="settings__setting__column">
+            <div class="settings__setting__icon">
+              <i class="fas fa-comment"></i>
+            </div>
+            <div class="settings__setting__title"><span>Chats</span></div>
+          </div>
+        </li>
+        <li class="settings__setting">
+          <div class="settings__setting__column">
+            <div class="settings__setting__icon">
+              <i class="fas fa-tv"></i>
+            </div>
+            <div class="settings__setting__title">
+              <span>Display</span><span class="new__notification">N</span>
+            </div>
+          </div>
+        </li>
+        <li class="settings__setting">
+          <div class="settings__setting__column">
+            <div class="settings__setting__icon">
+              <i class="fas fa-paint-roller"></i>
+            </div>
+            <div class="settings__setting__title">
+              <span>Themes</span><span class="new__notification">N</span>
+            </div>
+          </div>
+          <div class="settings__setting__column">
+            <div class="settings__setting__info">
+              <span>Default theme</span>
+            </div>
+          </div>
+        </li>
+        <li class="settings__setting">
+          <div class="settings__setting__column">
+            <div class="settings__setting__icon">
+              <i class="fas fa-phone-alt"></i>
+            </div>
+            <div class="settings__setting__title"><span>Call</span></div>
+          </div>
+        </li>
+      </ul>
+    </main>
+
+    <nav class="nav">
+      <ul class="nav__list">
+        <li class="nav__btn">
+          <a class="nav__link" href="friends.html"
+            ><i class="far fa-user fa-2x"></i
+          ></a>
+        </li>
+        <li class="nav__btn">
+          <a class="nav__link" href="chats.html">
+            <span class="badge nav__notification">1</span>
+            <i class="far fa-comment fa-2x"></i>
+          </a>
+        </li>
+        <li class="nav__btn">
+          <a class="nav__link" href="find.html"
+            ><i class="fas fa-search fa-2x"></i
+          ></a>
+        </li>
+        <li class="nav__btn">
+          <a class="nav__link" href="more.html">
+            <div class="nav__dot"></div>
+            <i class="fas fa-ellipsis-h fa-2x"></i>
+          </a>
+        </li>
+      </ul>
+    </nav>
+
+    <script
+      src="https://kit.fontawesome.com/6478f529f2.js"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>

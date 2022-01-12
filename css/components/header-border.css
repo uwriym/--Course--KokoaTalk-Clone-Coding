@@ -1,0 +1,17 @@
+.screen-list__border {
+  margin-top: 25px;
+  border-top: var(--border);
+  padding-top: 15px;
+}
+
+.screen-list__header {
+  margin-bottom: 25px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  color: rgba(0, 0, 0, 0.5);
+}
+
+.screen-list__header__rightside {
+  opacity: 0.8;
+}
