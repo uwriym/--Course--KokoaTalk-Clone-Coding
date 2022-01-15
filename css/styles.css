@@ -11,6 +11,7 @@
 @import "components/header-border.css";
 @import "components/icon-row.css";
 @import "components/setchat-header.css";
+@import "components/only-mobile.css";
 
 /* Screens */
 @import "screens/login.css";
@@ -24,8 +25,7 @@
 body {
   font-family: "Open Sans", sans-serif;
   color: #2e363e;
-  height: 1000vh;
-  margin-top: 26px;
+  margin-bottom: 73px;
 }
 
 .main-screen {

@@ -1,3 +1,7 @@
+.find-screen {
+  margin-top: 138px;
+}
+
 .find-screen__recommended-friends > span {
   color: rgba(0, 0, 0, 0.5);
   margin: 100px 0px;
@@ -12,7 +16,7 @@
   align-items: center;
   padding-bottom: 10px;
   margin-bottom: 10px;
-  border-bottom: var(--border);
+  border-bottom: 1px solid rgba(0, 0, 0, 0.1);
 }
 
 .find-screen__open-post__title {
@@ -22,7 +26,7 @@
 
 .find-screen__open-post__hashtags {
   text-transform: uppercase;
-  opacity: 0.6;
+  color: rgba(0, 0, 0, 0.6);
   margin-bottom: 7px;
 }
 
@@ -39,7 +43,7 @@
 }
 
 .find-screen__open-post__member-count {
-  opacity: 0.5;
+  color: rgba(0, 0, 0, 0.5);
   font-size: 14px;
 }
 
@@ -73,10 +77,31 @@
 
 .find-screen__open-post__photo {
   position: relative;
+  z-index: -1;
 }
 
 .find-screen__open-post__photo img {
   width: 120px;
   height: 120px;
   border-radius: 10px;
+}
+
+@keyframes heartBeatAnimation {
+  0% {
+    color: white;
+    transform: none;
+  }
+  50% {
+    color: tomato;
+    transform: scale(2);
+  }
+  100% {
+    color: white;
+    transform: none;
+  }
+}
+
+.find-screen__open-post:hover i {
+  will-change: transform;
+  animation: heartBeatAnimation 1s linear infinite;
 }

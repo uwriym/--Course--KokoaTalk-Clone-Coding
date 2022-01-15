@@ -7,6 +7,14 @@
   padding: 5px 3px;
 }
 
+.external-screen .status-bar,
+.internal-screen__settings .status-bar {
+  background-color: white;
+}
+.internal-screen__chat .status-bar {
+  background-color: #abc1d1;
+}
+
 .status-bar__column {
   width: 33%;
 }
@@ -24,4 +32,7 @@
 }
 .status-bar__column .fa-battery-full {
   margin: 0px 5px;
+}
+.status-bar__column .fa-bolt {
+  margin-right: 5px;
 }

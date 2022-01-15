@@ -7,7 +7,7 @@
     <title>Settings - Kokoa Clone</title>
     <link rel="stylesheet" href="css/styles.css" />
   </head>
-  <body>
+  <body class="internal-screen__settings">
     <div class="status-bar">
       <div class="status-bar__column">
         <span>No Service</span>
@@ -23,7 +23,7 @@
       </div>
     </div>
 
-    <header class="setchat-header">
+    <header class="setchat-header setchat-header__set">
       <div class="setchat-header__column">
         <a href="javascript:history.back();"
           ><i class="fas fa-chevron-left fa-lg"></i
@@ -37,7 +37,7 @@
       </div>
     </header>
 
-    <main class="main-screen setting-screen">
+    <main class="main-screen settings-screen__div1">
       <ul class="settings-list">
         <li class="settings__setting">
           <div class="settings__setting__column">
@@ -71,9 +71,9 @@
       </ul>
     </main>
 
-    <div id="setting-screen__border"></div>
+    <div id="settings-screen__border"></div>
 
-    <main class="main-screen setting-screen">
+    <main class="main-screen settings-screen__div2">
       <ul class="settings-list">
         <li class="settings__setting">
           <div class="settings__setting__column">
@@ -171,6 +171,10 @@
         </li>
       </ul>
     </nav>
+
+    <div id="only-mobile">
+      <span>Your screen is too big ㅠㅠ</span>
+    </div>
 
     <script
       src="https://kit.fontawesome.com/6478f529f2.js"

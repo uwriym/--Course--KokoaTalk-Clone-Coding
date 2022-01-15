@@ -8,10 +8,6 @@
   align-items: center;
 }
 
-.user-component__profile {
-  margin-top: 10px;
-}
-
 .user-component__friends,
 .user-component__chats {
   margin-bottom: 15px;
